@@ -1,0 +1,16 @@
+.LD39050PU33R :1 ;STMICROELECTRONICS - LD39050PU33R - LDO, FIXED, 3.3V, 0.5A, DFN-6
+SON95P300X300X100-7N
+*STM PS
+*NGS
+*PLB 1="EN" 2="GND" 3="PG" 4="VOUT" 5="NC" 6="VIN" 7="PAD"
+*MXP 7
+*DFN LD39050PU33R
+~!Supplier_Name (Farnell)
+~!Farnell Part Number (2762703)
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LD39050PU33R)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/LD39050PU33R.pdf)
+~!Height (1mm)
+~!3D_Model (LD39050PU33R)
+LD39050PU33R
+1.1!I 2.1!G 3.1!Y 4.1!Y 7.1!G 6.1!P 5.1!U 
