@@ -94,7 +94,6 @@ F 3 "" H 4050 4600 50  0001 C CNN
 $EndComp
 NoConn ~ 3950 4050
 NoConn ~ 3750 4050
-NoConn ~ 3650 4050
 NoConn ~ 3450 4050
 NoConn ~ 3350 4050
 NoConn ~ 3250 4050
@@ -204,7 +203,7 @@ Text Label 5200 3900 2    60   ~ 0
 T_SWDIO_IN
 Text Label 5050 3550 2    60   ~ 0
 T_JTCK
-Text Label 4250 1800 0    60   ~ 0
+Text Label 4150 1800 0    60   ~ 0
 STM_JTCK
 Text Label 4100 1650 0    60   ~ 0
 USB_RENUMn
@@ -527,47 +526,36 @@ F 3 "" H 4300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x08_Row_Letter_First J1
-U 1 1 59D5C481
-P 7800 1100
-F 0 "J1" H 7850 1500 50  0000 C CNN
-F 1 "Conn_02x08_Row_Letter_First" H 7850 600 50  0000 C CNN
-F 2 "" H 7800 1100 50  0001 C CNN
-F 3 "" H 7800 1100 50  0001 C CNN
-	1    7800 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L GNDREF #PWR012
 U 1 1 59D5F43A
-P 7550 800
-F 0 "#PWR012" H 7550 550 50  0001 C CNN
-F 1 "GNDREF" H 7550 650 50  0000 C CNN
-F 2 "" H 7550 800 50  0001 C CNN
-F 3 "" H 7550 800 50  0001 C CNN
-	1    7550 800 
+P 9200 800
+F 0 "#PWR012" H 9200 550 50  0001 C CNN
+F 1 "GNDREF" H 9200 650 50  0000 C CNN
+F 2 "" H 9200 800 50  0001 C CNN
+F 3 "" H 9200 800 50  0001 C CNN
+	1    9200 800 
 	0    1    1    0   
 $EndComp
 $Comp
 L GNDREF #PWR013
 U 1 1 59D61FA6
-P 8250 800
-F 0 "#PWR013" H 8250 550 50  0001 C CNN
-F 1 "GNDREF" H 8250 650 50  0000 C CNN
-F 2 "" H 8250 800 50  0001 C CNN
-F 3 "" H 8250 800 50  0001 C CNN
-	1    8250 800 
+P 10250 800
+F 0 "#PWR013" H 10250 550 50  0001 C CNN
+F 1 "GNDREF" H 10250 650 50  0000 C CNN
+F 2 "" H 10250 800 50  0001 C CNN
+F 3 "" H 10250 800 50  0001 C CNN
+	1    10250 800 
 	0    -1   -1   0   
 $EndComp
 Text Label 3550 4450 1    60   ~ 0
 T_NRST
-Text Label 8500 1100 0    60   ~ 0
+Text Label 10500 1100 0    60   ~ 0
 T_NRST
-Text Label 8500 1300 0    60   ~ 0
+Text Label 10500 1300 0    60   ~ 0
 T_SWO
-Text Label 8500 1400 0    60   ~ 0
+Text Label 10500 1400 0    60   ~ 0
 STLINK_TX
-Text Label 8500 1500 0    60   ~ 0
+Text Label 10500 1500 0    60   ~ 0
 STLINK_RX
 $Comp
 L R R20
@@ -625,14 +613,11 @@ Text Label 8750 2700 0    60   ~ 0
 ST_LINK_SWIM
 Text Label 8750 2950 0    60   ~ 0
 RESET
-Text Label 7350 900  2    60   ~ 0
+Text Label 9000 900  2    60   ~ 0
 ST_LINK_SWIM
-NoConn ~ 7600 1000
-NoConn ~ 7600 1500
-NoConn ~ 7600 1400
-Text Label 7400 1100 2    60   ~ 0
+Text Label 9050 1100 2    60   ~ 0
 RESET
-Text Label 7450 1300 2    60   ~ 0
+Text Label 9100 1300 2    60   ~ 0
 PWR_ENn
 $Comp
 L MIC5219-3.3 U1
@@ -777,9 +762,9 @@ F 3 "" H 2000 5900 50  0001 C CNN
 	1    2000 5900
 	0    1    1    0   
 $EndComp
-Text Label 2250 5800 0    60   ~ 0
+Text Label 2400 5900 0    60   ~ 0
 USB_DM
-Text Label 2250 5900 0    60   ~ 0
+Text Label 2400 5800 0    60   ~ 0
 USB_DP
 $Comp
 L R R10
@@ -822,9 +807,9 @@ Text Label 1450 3300 0    60   ~ 0
 3V3_ST_LINK
 Text Label 9650 5150 0    60   ~ 0
 3V3_ST_LINK
-Text Label 8500 1200 0    60   ~ 0
+Text Label 10500 1200 0    60   ~ 0
 3V3_ST_LINK
-Text Label 7400 1200 2    60   ~ 0
+Text Label 9050 1200 2    60   ~ 0
 3V3_ST_LINK
 Text Label 4750 1350 0    60   ~ 0
 3V3_ST_LINK
@@ -919,9 +904,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 5150 6800 5200
 Wire Wire Line
-	7400 1200 7600 1200
+	9050 1200 9250 1200
 Wire Wire Line
-	8100 1200 8500 1200
+	10100 1200 10500 1200
 Wire Wire Line
 	4650 2550 4900 2550
 Wire Wire Line
@@ -998,11 +983,11 @@ Wire Wire Line
 Wire Wire Line
 	2400 3650 2400 4400
 Wire Wire Line
-	7600 1300 7450 1300
+	9250 1300 9100 1300
 Wire Wire Line
-	7600 1100 7400 1100
+	9250 1100 9050 1100
 Wire Wire Line
-	7600 900  7350 900 
+	9250 900  9000 900 
 Wire Wire Line
 	8550 2950 8750 2950
 Wire Wire Line
@@ -1019,23 +1004,23 @@ Wire Wire Line
 Wire Wire Line
 	7150 2700 7500 2700
 Wire Wire Line
-	8100 1500 8500 1500
+	10100 1500 10500 1500
 Wire Wire Line
-	8100 1400 8500 1400
+	10100 1400 10500 1400
 Wire Wire Line
-	8100 1300 8500 1300
+	10100 1300 10500 1300
 Wire Wire Line
-	8100 1000 8500 1000
+	10100 1000 10500 1000
 Wire Wire Line
-	8100 1100 8500 1100
+	10100 1100 10500 1100
 Wire Wire Line
-	8100 900  8500 900 
+	10100 900  10500 900 
 Wire Wire Line
 	3550 4050 3550 4500
 Wire Wire Line
-	8100 800  8250 800 
+	10100 800  10250 800 
 Wire Wire Line
-	7550 800  7600 800 
+	9200 800  9250 800 
 Wire Wire Line
 	1500 2950 2550 2950
 Wire Wire Line
@@ -1127,8 +1112,6 @@ Wire Wire Line
 	4050 1650 4650 1650
 Wire Wire Line
 	4050 1900 4050 1650
-Wire Wire Line
-	4150 1800 5750 1800
 Wire Wire Line
 	4150 1900 4150 1800
 Wire Wire Line
@@ -1261,31 +1244,12 @@ F 3 "" H 1450 5750 50  0001 C CNN
 	1    1300 5800
 	1    0    0    -1  
 $EndComp
-Text Label 8500 900  0    60   ~ 0
+Text Label 10500 900  0    60   ~ 0
 T_JTCK
 Text Label 4750 3450 0    60   ~ 0
 T_JTMS
-Text Label 8500 1000 0    60   ~ 0
+Text Label 10500 1000 0    60   ~ 0
 T_JTMS
-$Comp
-L Conn_01x04 J3
-U 1 1 59DBE2C0
-P 6250 1900
-F 0 "J3" H 6250 2100 50  0000 C CNN
-F 1 "Conn_01x04" H 6250 1600 50  0000 C CNN
-F 2 "" H 6250 1900 50  0001 C CNN
-F 3 "" H 6250 1900 50  0001 C CNN
-	1    6250 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 2750 5800 2000
-Wire Wire Line
-	5800 2000 6050 2000
-Wire Wire Line
-	5750 1800 5750 1900
-Wire Wire Line
-	5750 1900 6050 1900
 $Comp
 L GNDREF #PWR021
 U 1 1 59DC2D5C
@@ -1297,6 +1261,56 @@ F 3 "" H 6050 1800 50  0001 C CNN
 	1    6050 1800
 	-1   0    0    1   
 $EndComp
-Text Label 6050 2100 2    60   ~ 0
+Text Label 6500 2200 2    60   ~ 0
 3V3_ST_LINK
+$Comp
+L Conn_01x05 J3
+U 1 1 59D6FF42
+P 6700 2000
+F 0 "J3" H 6700 2300 50  0000 C CNN
+F 1 "Conn_01x05" H 6700 1700 50  0000 C CNN
+F 2 "" H 6700 2000 50  0001 C CNN
+F 3 "" H 6700 2000 50  0001 C CNN
+	1    6700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1800 6500 1800
+Text Label 6500 1900 2    60   ~ 0
+STM_JTCK
+Text Label 6500 2000 2    60   ~ 0
+STM_JTMS
+Wire Wire Line
+	3650 4050 3650 4500
+Text Label 3650 4450 1    60   ~ 0
+T_JRST
+Text Label 6500 2100 2    60   ~ 0
+T_JRST
+$Comp
+L Conn_01x08 J1
+U 1 1 59D7D629
+P 9450 1100
+F 0 "J1" H 9450 1500 50  0000 C CNN
+F 1 "Conn_01x08" H 9450 600 50  0000 C CNN
+F 2 "" H 9450 1100 50  0001 C CNN
+F 3 "" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J4
+U 1 1 59D7D6EA
+P 9900 1100
+F 0 "J4" H 9900 1500 50  0000 C CNN
+F 1 "Conn_01x08" H 9900 600 50  0000 C CNN
+F 2 "" H 9900 1100 50  0001 C CNN
+F 3 "" H 9900 1100 50  0001 C CNN
+	1    9900 1100
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9250 1000
+NoConn ~ 9250 1400
+NoConn ~ 9250 1500
+Text Label 6050 3250 0    60   ~ 0
+MCO
 $EndSCHEMATC
