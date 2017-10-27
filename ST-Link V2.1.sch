@@ -608,21 +608,21 @@ T_SWCLK_JTCK
 $Comp
 L Conn_01x06 J2
 U 1 1 59DEFF36
-P 7320 1140
-F 0 "J2" H 7320 1440 50  0000 C CNN
-F 1 "Conn_01x06" H 7320 740 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 7320 1140 50  0001 C CNN
-F 3 "" H 7320 1140 50  0001 C CNN
-	1    7320 1140
+P 7720 1000
+F 0 "J2" H 7720 1300 50  0000 C CNN
+F 1 "Conn_01x06" H 7720 600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x06_Pitch2.54mm" H 7720 1000 50  0001 C CNN
+F 3 "" H 7720 1000 50  0001 C CNN
+	1    7720 1000
 	1    0    0    -1  
 $EndComp
-Text Label 6820 1040 2    60   ~ 0
+Text Label 7220 1200 2    60   ~ 0
 STM_SWCLK_JTCK
-Text Label 6820 1140 2    60   ~ 0
+Text Label 7220 1000 2    60   ~ 0
 STM_SWDIO_JTMS
-Text Label 6820 1240 2    60   ~ 0
+Text Label 7220 900  2    60   ~ 0
 NRST
-Text Label 6820 1340 2    60   ~ 0
+Text Label 7220 1100 2    60   ~ 0
 3V3_ST_LINK
 $Comp
 L GND #PWR02
@@ -682,12 +682,12 @@ $EndComp
 $Comp
 L GND #PWR07
 U 1 1 59E1FDD5
-P 7120 940
-F 0 "#PWR07" H 7120 690 50  0001 C CNN
-F 1 "GND" H 7120 790 50  0000 C CNN
-F 2 "" H 7120 940 50  0001 C CNN
-F 3 "" H 7120 940 50  0001 C CNN
-	1    7120 940 
+P 7520 800
+F 0 "#PWR07" H 7520 550 50  0001 C CNN
+F 1 "GND" H 7520 650 50  0000 C CNN
+F 2 "" H 7520 800 50  0001 C CNN
+F 3 "" H 7520 800 50  0001 C CNN
+	1    7520 800 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -864,7 +864,7 @@ Text Label 3650 4650 1    60   ~ 0
 T_JRST
 Text Label 9010 1300 2    60   ~ 0
 T_JRST
-Text Label 6820 1440 2    60   ~ 0
+Text Label 7220 1300 2    60   ~ 0
 STM_SWO
 Wire Wire Line
 	1000 2450 950  2450
@@ -1158,15 +1158,15 @@ Wire Wire Line
 Wire Wire Line
 	5550 3900 5550 3850
 Wire Wire Line
-	7120 1040 6820 1040
+	7520 900  7220 900 
 Wire Wire Line
-	7120 1140 6820 1140
+	7520 1000 7220 1000
 Wire Wire Line
-	7120 1240 6820 1240
+	7520 1100 7220 1100
 Wire Wire Line
-	7120 1340 6820 1340
+	7520 1200 7220 1200
 Wire Wire Line
-	7120 1440 6820 1440
+	7520 1300 7220 1300
 Wire Wire Line
 	7460 3710 6870 3710
 Wire Wire Line
