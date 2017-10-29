@@ -1,4 +1,4 @@
-update=10/12/2017 6:00:48 PM
+update=10/29/17 19:48:18
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,9 +6,28 @@ version=1
 NetIExt=net
 [general]
 version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=ST-Link V2.1.net
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=0.7999999999999999
+ModuleTextSizeH=0.7999999999999999
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=LD39050PU33R/KiCad;C:/Students/NWA/project/PCB/STLINK_V2-1
+LibDir=C:/Users/ng_we/Desktop/project/PCB/STLINK_V2-1
 [eeschema/libraries]
 LibName1=USBLC6-2SC6
 LibName2=power
@@ -44,22 +63,3 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=ss
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=ST-Link V2.1.net
-PadDrill=0.762
-PadDrillOvalY=0.762
-PadSizeH=1.524
-PadSizeV=1.524
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=0.7999999999999999
-ModuleTextSizeH=0.7999999999999999
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0.2
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.15
-ModuleOutlineThickness=0.15
