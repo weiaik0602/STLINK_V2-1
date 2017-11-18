@@ -276,7 +276,7 @@ F 3 "" H 1300 2600 50  0001 C CNN
 	1    1300 2600
 	1    0    0    -1  
 $EndComp
-Text Label 3550 4450 1    60   ~ 0
+Text Label 3550 4650 1    60   ~ 0
 T_NRST
 Text Label 10500 900  0    60   ~ 0
 T_NRST
@@ -966,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 900  10500 900 
 Wire Wire Line
-	3550 4050 3550 4500
+	3550 4050 3550 4650
 Wire Wire Line
 	10100 800  10280 800 
 Wire Wire Line
