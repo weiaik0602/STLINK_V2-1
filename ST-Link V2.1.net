@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Users/ng_we/Desktop/project/PCB/STLINK_V2-1/ST-Link V2.1.sch")
-    (date "11/18/17 22:04:43")
+    (source "C:/Students/NWA/project/PCB/STLINK_V2-1/ST-Link V2.1.sch")
+    (date "11/21/2017 9:29:10 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -529,17 +529,17 @@
         (pin (num 48) (name VDD_3~) (type input)))))
   (libraries
     (library (logical USBLC6-2SC6)
-      (uri C:\Users\ng_we\Desktop\project\PCB\STLINK_V2-1\USBLC6-2SC6.lib))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+      (uri USBLC6-2SC6.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical regul)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical regul)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
     (library (logical ss)
-      (uri C:\Users\ng_we\Desktop\project\PCB\STLINK_V2-1\ss.lib)))
+      (uri ss.lib)))
   (nets
     (net (code 1) (name +5V)
       (node (ref J1) (pin 1))

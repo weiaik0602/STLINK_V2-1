@@ -3,7 +3,7 @@
   (general
     (links 124)
     (no_connects 0)
-    (area 110.400001 92.85 152.492096 120.924999)
+    (area 118.624999 97.074999 150.575001 120.225001)
     (thickness 1.6)
     (drawings 37)
     (tracks 780)
@@ -1916,7 +1916,7 @@
     )
   )
 
-  (module QFPN48:QFN_QFP48 (layer F.Cu) (tedit 5A103E37) (tstamp 59E05AC2)
+  (module QFPN48:QFN_QFP48 (layer F.Cu) (tedit 5A142A60) (tstamp 59E05AC2)
     (at 137.716194 109.417707 45)
     (path /59D31BD8)
     (fp_text reference U2 (at 0 5.25 45) (layer F.SilkS) hide
