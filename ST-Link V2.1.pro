@@ -1,11 +1,9 @@
-update=10/29/17 19:48:18
+update=11/22/2017 8:23:44 PM
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -63,3 +61,5 @@ LibName31=atmel
 LibName32=contrib
 LibName33=valves
 LibName34=ss
+[general]
+version=1
