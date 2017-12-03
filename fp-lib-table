@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name crystal)(type KiCad)(uri "$(KIPRJMOD)/crystal.pretty")(options "")(descr ""))
 )
